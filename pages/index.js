@@ -1,6 +1,7 @@
+import React from "react";
 import { useState } from 'react';
 
-const index = () => {
+const Index = () => {
   const [isfull, setIsfull] = useState(false);
   const handleClick = (color) => {
     if (isfull === false) {
@@ -64,4 +65,4 @@ const index = () => {
     </>
   );
 };
-export default index;
+export default Index;
